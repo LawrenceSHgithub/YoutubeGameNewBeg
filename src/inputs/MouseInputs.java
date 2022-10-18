@@ -7,8 +7,10 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 
 // Implements use can implement multi interfaces. (You can only extend one)
+//conects to the GamePanel or picture
 public class MouseInputs implements MouseListener, MouseMotionListener {
     private GamePanel gamePanel;
+    // Step 15 Setting up the clss consturctor and connecting it with the gamePanel
     public MouseInputs(GamePanel gamePanel) {
         this.gamePanel = gamePanel;
     }
